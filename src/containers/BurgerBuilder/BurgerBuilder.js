@@ -84,7 +84,7 @@ updatePurchaseState (ingredients) {
             ...this.state.ingredients
         };
         for (let key in disabledInfo) {
-            disabledInfo[key] = disabledInfo [key] <= 0 
+            disabledInfo[key] = disabledInfo[key] <= 0 
         }
         // {salad: true, meat: flase, ...}
         return (
